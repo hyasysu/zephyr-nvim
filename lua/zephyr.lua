@@ -18,6 +18,7 @@ local z = {
   bg_popup = "#3E4556",
   bg_highlight = "#2E323C",
   bg_visual = "#b3deef",
+  bg_illuminated_highlight = "#696762",
 
   fg = "#bbc2cf",
   fg_alt = "#5B6268",
@@ -259,6 +260,10 @@ local plugin_syntax = {
   LspReferenceRead = { bg = z.bg_highlight, bold = true },
   LspReferenceText = { bg = z.bg_highlight, bold = true },
   LspReferenceWrite = { bg = z.bg_highlight, bold = true },
+
+  IlluminatedWordRead = { bg = z.bg_illuminated_highlight, bold = true },
+	IlluminatedWordText = { bg = z.bg_illuminated_highlight, bold = true },
+	IlluminatedWordWrite = { bg = z.bg_illuminated_highlight, bold = true },
 
   DiagnosticVirtualTextError = { fg = z.red },
   DiagnosticVirtualTextWarn = { fg = z.yellow },
