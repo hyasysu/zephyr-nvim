@@ -262,8 +262,10 @@ local plugin_syntax = {
   LspReferenceWrite = { bg = z.bg_highlight, bold = true },
 
   IlluminatedWordRead = { bg = z.bg_illuminated_highlight, bold = true },
-	IlluminatedWordText = { bg = z.bg_illuminated_highlight, bold = true },
-	IlluminatedWordWrite = { bg = z.bg_illuminated_highlight, bold = true },
+  IlluminatedWordText = { bg = z.bg_illuminated_highlight, bold = true },
+  IlluminatedWordWrite = { bg = z.bg_illuminated_highlight, bold = true },
+
+  IblScope = { fg = "#9B9FA9" },
 
   DiagnosticVirtualTextError = { fg = z.red },
   DiagnosticVirtualTextWarn = { fg = z.yellow },
