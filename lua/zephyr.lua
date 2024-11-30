@@ -93,7 +93,7 @@ local syntax = {
   ErrorMsg = { fg = z.red, bg = z.none, bold = true },
   WarningMsg = { fg = z.yellow, bg = z.none, bold = true },
   ModeMsg = { fg = z.fg, bg = z.none, bold = true },
-  MatchParen = { fg = z.red, bg = z.none },
+  MatchParen = { fg = z.red, bg = z.bg_illuminated_highlight },
   NonText = { fg = z.bg1 },
   Whitespace = { fg = z.base4 },
   SpecialKey = { fg = z.bg1 },
